@@ -66,7 +66,7 @@ public class Interact : MonoBehaviour
 
     IEnumerator WaitStartDialogue(Dialogue dialogue)
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(10f);
         StartDialogue(dialogue);
     }
 }
