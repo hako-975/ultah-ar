@@ -5113,18 +5113,18 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Selamat Ulang tahun
+  m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: c7a5e477767eb1d4b8801767e1ac5741, type: 2}
-  m_sharedMaterial: {fileID: -3171197734812353455, guid: c7a5e477767eb1d4b8801767e1ac5741,
+  m_fontAsset: {fileID: 11400000, guid: 58f3bf721fe2f484abc38134d15e4d9b, type: 2}
+  m_sharedMaterial: {fileID: -6151461041527133078, guid: 58f3bf721fe2f484abc38134d15e4d9b,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4292334335
-  m_fontColor: {r: 1, g: 0.8254717, b: 0.84375566, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -5141,11 +5141,11 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 29.75
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
-  m_fontSizeMin: 18
+  m_fontSizeMin: 16
   m_fontSizeMax: 72
   m_fontStyle: 0
   m_HorizontalAlignment: 2
