@@ -19,7 +19,7 @@ public class Interact : MonoBehaviour
 
         sentences = new Queue<string>();
 
-        StartDialogue(dialogue);
+        StartCoroutine(WaitStartDialogue(dialogue));
     }
 
     public void StartDialogue(Dialogue dialogue)
@@ -62,5 +62,11 @@ public class Interact : MonoBehaviour
         yield return new WaitForSeconds(1f);
 
         DisplayNextSentence();
+    }
+
+    IEnumerator WaitStartDialogue(Dialogue dialogue)
+    {
+        yield return new WaitForSeconds(2f);
+        StartDialogue(dialogue);
     }
 }
