@@ -39,6 +39,7 @@ public class Interact : MonoBehaviour
         // jika kalimat habis
         if (sentences.Count == 0)
         {
+            StartDialogue(dialogue);
             return;
         }
 
