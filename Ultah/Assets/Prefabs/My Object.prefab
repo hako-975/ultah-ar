@@ -5234,10 +5234,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogue:
     sentences:
+<<<<<<< HEAD
     - Untuk Devi Nur Suryanita
     - Selamat Ulang Tahun!
     - 'Semoga di usia yang ke-23 ini '
     - Membawa banyak kebahagiaan
+=======
+    - Yaasmiin Nuhaa Asa Putri
+    - Selamat Ulang Tahun!
+    - 'Semoga di usia yang ke-22 ini '
+    - membawa banyak kebahagiaan
+>>>>>>> f6e9a83218e27027a3a3a656a85d140ddf86b35a
     - Semoga keiginianmu tercapai
     - Semoga skripsinya lancar
     - Semoga sehat selalu
